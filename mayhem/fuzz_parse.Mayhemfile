@@ -1,0 +1,8 @@
+project: yul
+target: fuzz-parse
+
+cmds:
+    - cmd: /fuzz_parse
+
+testsuite:
+    - file://mayhem/testsuite/fuzz-parse
